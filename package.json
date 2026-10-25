@@ -1,0 +1,18 @@
+{
+  "name": "civictrack",
+  "version": "1.0.0",
+  "description": "CivicTrack - Public Issue Reporting and Resolution Platform",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test"
+  },
+  "keywords": ["civic-tech", "issue-tracker", "react", "node", "mongodb", "leaflet"],
+  "author": "CivicTrack Team",
+  "license": "ISC"
+}
