@@ -12,7 +12,17 @@
     "seed": "npm --prefix server run seed",
     "test": "npm --prefix server test"
   },
-  "keywords": ["civic-tech", "issue-tracker", "react", "node", "mongodb", "leaflet"],
+  "keywords": [
+    "civic-tech",
+    "issue-tracker",
+    "react",
+    "node",
+    "mongodb",
+    "leaflet"
+  ],
   "author": "CivicTrack Team",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
